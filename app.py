@@ -7,7 +7,10 @@ import os
 import io
 
 # 1. Page Configuration
-st.set_page_config(page_title="Universal Converter", page_icon="📄", layout="centered")
+st.set_page_config(
+    page_title="Universal Converter · Change is constant. Simple file tool.", 
+    page_icon="📄", 
+    layout="centered"
 st.title("📄 Universal Word Document Converter")
 st.write("Upload any PDF or image with text to instantly convert it into a Word (.docx) file.")
 
