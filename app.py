@@ -13,7 +13,7 @@ st.set_page_config(
     layout="centered"
 )
 
-# 2. Hidden Google search verification data (Allows Google's indexing system to map the page)
+# 2. Hidden Google search verification data
 st.markdown(
     '<meta name="google-site-verification" content="universal-converter-verification-tag" />', 
     unsafe_allow_html=True
@@ -102,5 +102,3 @@ elif page == "Contact Support":
             st.success("Thank you for your feedback!")
         else:
             st.warning("Please type a message first.")
-ngml.document"
-        )
