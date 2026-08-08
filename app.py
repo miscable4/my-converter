@@ -11,6 +11,10 @@ st.set_page_config(
     page_title="Universal Converter · Change is constant. Simple file tool.", 
     page_icon="📄", 
     layout="centered"
+    st.markdown(
+    '<meta name="google-site-verification" content="universal-converter-verification-tag" />', 
+    unsafe_allow_html=True
+)
 st.title("📄 Universal Word Document Converter")
 st.write("Upload any PDF or image with text to instantly convert it into a Word (.docx) file.")
 
